@@ -1,12 +1,11 @@
 {
     "name": "gulp-jsrefs",
-    "version": "0.0.1",
-    "description": "js refs replacement plugin for gulp. find and replace url refencences using md5url function etc.",
+    "version": "0.1.1",
+    "description": "js debug/develop refs replacement plugin for gulp.",
     "main": "index.js",
     "dependencies": {
         "gulp-util": "~2.2.14",
-        "through2": "~0.4.1",
-        "glob": "~3.2.9"
+        "through2": "~0.4.1"
     },
     "scripts": {
         "test": "mocha"
@@ -16,8 +15,7 @@
         "url": "git://github.com/rehorn/gulp-jsrefs.git"
     },
     "keywords": [
-        "gulpplugin",
-        "usemin"
+        "gulpplugin"
     ],
     "author": "rehornchen@tencent.com",
     "license": "MIT",
