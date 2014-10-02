@@ -5,7 +5,7 @@ js debug/develop refs replacement plugin for gulp.
 
 #### usage
 ```
-var dist = './dist';
+var dist = './dist/';
 // replace html js contact to seprate script inline for debug/develop
 gulp.task('jsrefs', function() {
     var refOpt = {
